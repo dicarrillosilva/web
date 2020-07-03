@@ -2500,8 +2500,8 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/social/icon-twitter.svg);
 }
 
-.header__social .ss-pinterest a::after {
-  background-image: url(../images/icons/social/icon-pinterest.svg);
+.header__social .ss-linkedin a::after {
+  background-image: url(../images/icons/social/icon-linkedin.svg);
 }
 
 .header__social .ss-behance a::after {
