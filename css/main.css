@@ -1143,7 +1143,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background: center center;
   background-size: contain;
-  background-image: url(../images/icons/icon-quote.svg);
+  background-image: url(../images/icons/icon-logo.svg);
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -1948,11 +1948,11 @@ input::-moz-focus-inner {
   color: rgba(0, 0, 0, 0.4);
   border: none;
 }
-/*
+
 .format-quote .entry__thumb::before {
-  background-image: url(../images/icons/icon-quote.svg);
+  background-image: url(../images/icons/icon-logo.svg);
 }
-*/
+
 .format-link .entry__thumb::before {
   background-image: url(../images/icons/icon-link.svg);
 }
