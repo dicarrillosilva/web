@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Audio Post - Typerite</title>
+    <title>Standard Post - Typerite</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -80,7 +80,7 @@
             <nav class="header__nav-wrap">
 
                 <ul class="header__nav">
-                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li><a href="index.html" title="">Home</a></li>
                     <li class="has-children">
                         <a href="#0" title="">Categories</a>
                         <ul class="sub-menu">
@@ -138,16 +138,21 @@
         ================================================== -->
         <div class="s-content content">
             <main class="row content__page">
-
-                <article class="column large-full entry format-audio">
+                
+                <article class="column large-full entry format-standard">
 
                     <div class="media-wrap entry__media">
-                        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/80822997&color=%23dedede&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                        <div class="entry__post-thumb">
+                            <img src="images/thumbs/single/standard/standard-1000.jpg" 
+                                 srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
+                                         images/thumbs/single/standard/standard-1000.jpg 1000w, 
+                                         images/thumbs/single/standard/standard-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                        </div>
                     </div>
 
                     <div class="content__page-header entry__header">
                         <h1 class="display-1 entry__title">
-                        Hello, This Is An Audio Post.
+                        This Is A Standard Format Post.
                         </h1>
                         <ul class="entry__header-meta">
                             <li class="author">By <a href="#0">Jonathan Doe</a></li>
@@ -299,7 +304,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div> <!-- end entry content -->
+                    </div> <!-- end entry__pagenav -->
 
                     <div class="entry__related">
                         <h3 class="h2">Related Articles</h3>
@@ -334,7 +339,7 @@
                     <div id="comments" class="column large-12">
 
                         <h3 class="h2">5 Comments</h3>
-
+        
                         <!-- START commentlist -->
                         <ol class="commentlist">
         
@@ -491,10 +496,9 @@
                         <!-- END commentlist -->
 
                     </div> <!-- end comments -->
-            
-            
+
                     <div class="column large-12 comment-respond">
-            
+
                         <!-- START respond -->
                         <div id="respond">
             
