@@ -1948,11 +1948,11 @@ input::-moz-focus-inner {
   color: rgba(0, 0, 0, 0.4);
   border: none;
 }
-
+/*
 .format-quote .entry__thumb::before {
   background-image: url(../images/icons/icon-quote.svg);
 }
-
+*/
 .format-link .entry__thumb::before {
   background-image: url(../images/icons/icon-link.svg);
 }
