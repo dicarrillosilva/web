@@ -36,9 +36,9 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/thumbs/masonry/thesis-1200.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/slideshow/slideshow01.jpg': 'center',
+							'images/slideshow/slideshow02.jpg': 'center',
+							'images/slideshow/slideshow03.jpg': 'center'
 						},
 
 					// Delay.
