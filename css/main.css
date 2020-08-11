@@ -100,7 +100,7 @@ body.ss-bg-white {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #33998a;
+  color: #e6c86e;
   transition: all 0.3s ease-in-out;
 }
 
@@ -418,7 +418,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #33998a;
+  background: #e6c86e;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -427,7 +427,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #33998a;
+  color: #e6c86e;
 }
 
 dd {
@@ -910,7 +910,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #33998a;
+  -webkit-text-fill-color: #e6c86e;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -985,8 +985,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #33998a;
-  border-color: #33998a;
+  background: #e6c86e;
+  border-color: #e6c86e;
 }
 
 /* button modifiers
@@ -1189,7 +1189,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #33998a;
+  color: #e6c86e;
 }
 
 .stats-tabs li a em {
@@ -1848,7 +1848,7 @@ input::-moz-focus-inner {
 
 .masonry .entry__meta a:hover,
 .masonry .entry__meta a:focus {
-  color: #33998a;
+  color: #e6c86e;
 }
 
 .masonry .entry__meta-cat a::after {
@@ -3252,7 +3252,7 @@ body.search-is-visible {
 
 .entry__nav a:hover span,
 .entry__nav a:focus span {
-  color: #33998a;
+  color: #e6c86e;
 }
 
 .entry__prev,
