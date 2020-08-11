@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
 /*
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
@@ -230,7 +231,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: rgba(255, 255, 255, 0.75);
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Codystar', cursive;
   font-size: 16pt;
   font-weight: 400;
   letter-spacing: -0.01em;
