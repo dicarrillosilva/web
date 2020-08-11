@@ -356,7 +356,7 @@ section.special, article.special {
 
 header p {
   color: rgba(255, 255, 255, 0.5);
-  position: relative;
+  position: center; /*relative*/
   margin: 0 0 1.5em 0; }
 
 header h2 + p {
