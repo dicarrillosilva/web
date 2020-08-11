@@ -871,7 +871,7 @@ button,
   color: rgba(255, 255, 255, 0.5);
   left: 4em;
   opacity: 0.5;
-  text-align: center; } /*position:absolute;*/
+  position:absolute; }
 
   #footer .icons {
     margin: 0 0 0.5em 0; }
