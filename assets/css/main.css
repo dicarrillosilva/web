@@ -906,9 +906,10 @@ button,
 
   #footer:hover {
     opacity: 1; }
-     
+
   #footer > :last-child {
     margin-bottom: 0; }
+
   @media screen and (max-width: 1680px) {
     #footer {
       bottom: 3.5em;
