@@ -78,7 +78,7 @@ body {
 
 body {
   background: #f6f7f8;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.9rem;
   font-style: normal;
   font-weight: normal;
@@ -125,7 +125,7 @@ a:active {
  * ## typography
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-style: normal;
   color: #000000;
@@ -202,7 +202,7 @@ p img {
 }
 
 p.lead {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 1.833;
@@ -234,13 +234,13 @@ b {
 
 em,
 i {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-style: italic;
 }
 
 strong,
 b {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -271,7 +271,7 @@ blockquote {
 }
 
 blockquote p {
-  font-family: "Lora", serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   padding: 0;
   font-size: 2.4rem;
@@ -288,7 +288,7 @@ blockquote p {
 
 blockquote cite {
   display: block;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.333;
@@ -306,7 +306,7 @@ blockquote cite a:visited {
 }
 
 abbr {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-variant: small-caps;
   text-transform: lowercase;
@@ -473,7 +473,7 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   border-collapse: collapse;
 }
 
@@ -486,7 +486,7 @@ td {
 
 th {
   color: #000000;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
 }
 
@@ -754,7 +754,7 @@ select {
   border: 0;
   outline: none;
   color: #000000;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.6rem;
   line-height: 3.2rem;
   max-width: 100%;
@@ -826,7 +826,7 @@ select:focus {
 
 label,
 legend {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
   margin-bottom: 0.8rem;
@@ -843,7 +843,7 @@ input[type="radio"] {
 label > .label-text {
   display: inline-block;
   margin-left: 1rem;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   line-height: inherit;
 }
 
@@ -926,7 +926,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -1053,7 +1053,7 @@ input::-moz-focus-inner {
   float: left;
   margin: 0;
   padding: 1.6rem 0.8rem 0 0;
-  font-family: "Lora", serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 8.6rem;
   line-height: 6rem;
@@ -1182,7 +1182,7 @@ input::-moz-focus-inner {
 .stats-tabs li a {
   display: inline-block;
   font-size: 2.5rem;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   border: none;
   color: #000000;
@@ -1195,7 +1195,7 @@ input::-moz-focus-inner {
 .stats-tabs li a em {
   display: block;
   margin: 0.8rem 0 0 0;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
@@ -1223,7 +1223,7 @@ input::-moz-focus-inner {
   position: absolute;
   left: 0;
   top: -4rem;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
@@ -1243,7 +1243,7 @@ input::-moz-focus-inner {
   right: 0;
   top: -3.6rem;
   display: block;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #ffffff;
   font-size: 1.1rem;
   line-height: 1;
@@ -1352,7 +1352,7 @@ input::-moz-focus-inner {
   position: relative;
   margin-bottom: 3.2rem;
   border-radius: 3px;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.6;
@@ -1452,7 +1452,7 @@ input::-moz-focus-inner {
 }
 
 .pgn__num {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 3.2rem;
@@ -1825,7 +1825,7 @@ input::-moz-focus-inner {
 }
 
 .masonry .entry__meta {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-size: 11.5px;
   line-height: 2rem;
@@ -1918,7 +1918,7 @@ input::-moz-focus-inner {
 
 .format-quote blockquote p,
 .format-link .link-wrap h2 {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.8rem;
   font-weight: 400;
   line-height: 1.429;
@@ -1931,7 +1931,7 @@ input::-moz-focus-inner {
 .format-quote cite,
 .format-link cite {
   display: block;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   line-height: 1.6;
@@ -2270,7 +2270,7 @@ input::-moz-focus-inner {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -2353,7 +2353,7 @@ input::-moz-focus-inner {
   height: 42px;
   width: 42px;
   line-height: 42px;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -2552,7 +2552,7 @@ input::-moz-focus-inner {
 
 .header__search-trigger::after {
   content: "Search";
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 11px;
   line-height: 1.6rem;
@@ -2613,7 +2613,7 @@ input::-moz-focus-inner {
   color: #000000;
   height: auto;
   width: 100%;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   font-size: 6rem;
   line-height: 1.6;
@@ -3158,7 +3158,7 @@ body.search-is-visible {
  * ------------------------------------------------------------------- */
 .entry__tags {
   margin-top: 6rem;
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .entry__tags span {
@@ -3232,7 +3232,7 @@ body.search-is-visible {
 
 .entry__nav span {
   display: block;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -3243,7 +3243,7 @@ body.search-is-visible {
 }
 
 .entry__nav a {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 3rem;
   line-height: 1.333;
@@ -3397,7 +3397,7 @@ body.search-is-visible {
 
 .comments-wrap h3 span {
   display: block;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 1.556;
@@ -3448,7 +3448,7 @@ body.search-is-visible {
 }
 
 .comment__info .comment__author {
-  font-family: "Heebo", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 1.9rem;
   line-height: 1.684;
@@ -3457,7 +3457,7 @@ body.search-is-visible {
 }
 
 .comment__meta {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-style: normal;
   line-height: 2.4rem;
   display: block;
@@ -3478,7 +3478,7 @@ body.search-is-visible {
 
 .comment__meta .comment__reply a {
   font-size: 1.3rem;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
