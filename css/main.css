@@ -100,14 +100,14 @@ body.ss-bg-white {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #e6c86e;
+  color: #2e2e2e;
   transition: all 0.3s ease-in-out;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #da5260;
+  color: #e5ad70;
 }
 
 a:hover,
@@ -363,7 +363,7 @@ dfn[title] {
 }
 
 mark {
-  background: #fff099;
+  background: #e5ad70;
   color: #000000;
 }
 
@@ -418,7 +418,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #e6c86e;
+  background: #e5ad70;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -427,7 +427,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #e6c86e;
+  color: #e5ad70;
 }
 
 dd {
@@ -910,7 +910,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #e6c86e;
+  -webkit-text-fill-color: #e5ad70;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -985,8 +985,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #e6c86e;
-  border-color: #e6c86e;
+  background: #e5ad70;
+  border-color: #e5ad70;
 }
 
 /* button modifiers
@@ -1189,7 +1189,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #e6c86e;
+  color: #e5ad70;
 }
 
 .stats-tabs li a em {
@@ -1420,7 +1420,7 @@ input::-moz-focus-inner {
 }
 
 .alert-box--notice {
-  background-color: #fff099;
+  background-color: #e5ad70;
   color: #827217;
 }
 
@@ -1816,7 +1816,7 @@ input::-moz-focus-inner {
 
 .masonry .entry__title a:hover,
 .masonry .entry__title a:focus {
-  color: #267367;
+  color: #e5ad70;
 }
 
 .masonry .entry__excerpt {
@@ -1848,7 +1848,7 @@ input::-moz-focus-inner {
 
 .masonry .entry__meta a:hover,
 .masonry .entry__meta a:focus {
-  color: #e6c86e;
+  color: #e5ad70;
 }
 
 .masonry .entry__meta-cat a::after {
@@ -3252,7 +3252,7 @@ body.search-is-visible {
 
 .entry__nav a:hover span,
 .entry__nav a:focus span {
-  color: #e6c86e;
+  color: #e5ad70;
 }
 
 .entry__prev,

@@ -258,7 +258,7 @@ a {
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
-  color: #e5ad70; /*#1cb495*/
+  color: #e5ad70;
   text-decoration: none; }
   a:hover {
     border-bottom-color: transparent;
