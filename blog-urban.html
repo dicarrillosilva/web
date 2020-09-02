@@ -32,7 +32,7 @@
 
 </head>
 
-<body class="ss-bg-white">
+<body>
 
     <!-- preloader
     ================================================== -->
@@ -48,7 +48,7 @@
 
         <!-- site header
         ================================================== -->
-        <header class="s-header header">
+        <header class="s-header">
 
             <div class="header__top">
 
@@ -57,7 +57,7 @@
                     <form role="search" method="get" class="header__search-form" action="#">
                         <label>
                             <span class="hide-content">Search for:</span>
-                            <input type="search" class="header__search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                            <input type="search" class="header__search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="on">
                         </label>
                         <input type="submit" class="header__search-submit" value="Search">
                     </form>
@@ -70,7 +70,7 @@
                 <a href="#0" class="header__search-trigger"></a>
                 <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
 
-            </div>
+            </div> <!-- end header__top -->
 
             <nav class="header__nav-wrap">
 
@@ -119,99 +119,60 @@
 
             </nav> <!-- end header__nav-wrap -->
 
+
+
         </header> <!-- end s-header -->
 
+        <div class="s-content">
 
-        <!-- site content
-        ================================================== -->
-        <div class="s-content content">
-            <main class="row content__page">
+            <div class="masonry-wrap">
 
-                <section class="column large-full entry format-standard">
+                <div class="masonry">
 
-                    <div class="media-wrap">
-                        <div>
-                            <img src="images/thumbs/about/about-1000.jpg" srcset="images/thumbs/about/about-2000.jpg 2000w,
-                                      images/thumbs/about/about-1000.jpg 1000w,
-                                      images/thumbs/about/about-500.jpg 500w" sizes="(max-width: 2000px) 100vw, 2000px" alt="">
-                        </div>
-                    </div>
+                    <div class="grid-sizer"></div>
 
-                    <div class="content__page-header">
-                        <h1 class="display-1">
-                        Hello, We Are TypeRite.
-                        </h1>
-                    </div> <!-- end content__page-header -->
+                    <article class="masonry__brick entry format-standard animate-this">
 
-                    <a href="https://3pulse.com/DianaCarrillo_d2c96/map"><img src="https://3pulse.com/uploads/map/002/124/284/df5a9b/map.jpg" width="1200" /></a>
-
-                    <p class="lead drop-cap">
-                    Duis ex ad cupidatat tempor Excepteur cillum cupidatat
-                    fugiat nostrud cupidatat dolor sunt sint sit nisi est eu exercitation
-                    incididunt adipisicing veniam velit id fugiat enim mollit amet anim veniam dolor
-                    dolor irure velit commodo cillum sit nulla ullamco magna amet magna cupidatat qui
-                    labore cillum sit in tempor veniam consequat non laborum adipisicing aliqua
-                    ea nisi sint.
-                    </p>
-
-                    <p>
-                    Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat
-                    dolor sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit
-                    id fugiat enim mollit amet anim veniam dolor dolor irure velit commodo cillum sit
-                    nulla ullamco magna amet magna cupidatat qui labore cillum sit in tempor veniam
-                    consequat non laborum adipisicing aliqua ea nisi sint ut quis proident ullamco ut
-                    dolore culpa occaecat.
-                    </p>
-
-                    <h2>This Is Our Story</h2>
-
-                    <p>
-                    Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti
-                    dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
-                    sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-
-                    <p>
-                    Duis ex ad cupidatat tempor Excepteur cillum cupidatat fugiat nostrud cupidatat dolor
-                    sunt sint sit nisi est eu exercitation incididunt adipisicing veniam velit id fugiat enim
-                    mollit amet anim veniam dolor dolor irure velit commodo cillum sit nulla ullamco. Lorem
-                    ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat aute.
-                    </p>
-
-                    <hr>
-
-                    <div class="row block-large-1-2 block-tab-full">
-                        <div class="column">
-                            <h4>Who We Are.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
+                        <div class="entry__thumb">
+                            <a href="bu-MGR.html" class="entry__thumb-link">
+                                <img src="images/bu-MGR/JacarandasAlamedaCentral8M-scaled.jpg"
+                                        srcset="images/bu-MGR/JacarandasAlamedaCentral8M-scaled.jpg 1x, images/bu-MGR/JacarandasAlamedaCentral8M-scaled.jpg 2x" alt="">
+                            </a>
                         </div>
 
-                        <div class="column">
-                            <h4>Our Mission.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
+                        <div class="entry__text">
+                            <div class="entry__header">
+
+                                <h2 class="entry__title"><a href="pu-thesis.html">‘Mexico’s Glitter Revolution’: On uprisings as rational questions.</a></h2>
+                                <div class="entry__meta">
+                                    <span class="entry__meta-cat">
+                                        <a href="blog-urban.html">Urban Theory</a>
+                                    </span>
+                                    <span class="entry__meta-date">
+                                        <a href="bu-MGR.html">2019</a>
+                                    </span>
+                                </div>
+
+                            </div>
+                            <div class="entry__excerpt">
+                                <p>
+                                On August 2019, thousands of women took to the streets of Mexico protesting against gender-based violence. The demonstrations2 were triggered by recent rape crimes perpetrated by members of the police. This essay aims to use the ‘Glitter Revolution’ in Mexico to discuss uprisings as rational acts questioning systematised oppression to society and the state. It first focuses on the portrayals of the riots as presented by the media and the government. Then, it argues that public space is naturally the urban element where manifestations should materialise considering that these are the places where oppression takes effect on a daily-basis.
+                                </p>
+                            </div>
                         </div>
 
-                        <div class="column">
-                            <h4>Our Vision.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
-                        </div>
+                    </article> <!-- end article -->
 
-                        <div class="column">
-                            <h4>Our Core Values.</h4>
-                            <p>Lorem ipsum Nisi amet fugiat eiusmod et aliqua ad qui ut nisi Ut aute anim mollit fugiat qui sit ex occaecat et eu mollit nisi pariatur fugiat deserunt dolor veniam reprehenderit aliquip magna nisi consequat aliqua veniam in aute ullamco Duis laborum ad non pariatur sit.</p>
-                        </div>
+                </div> <!-- end masonry -->
 
-                    </div>
-
-                </section>
-
-            </main>
+            </div> <!-- end masonry-wrap -->
 
         </div> <!-- end s-content -->
 
 
         <!-- footer
         ================================================== -->
-        <footer class="s-footer footer">
+        <footer class="s-footer">
             <div class="row">
                 <div class="column large-full footer__content">
                     <div class="footer__copyright">
