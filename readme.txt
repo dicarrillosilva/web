@@ -1,5 +1,51 @@
 ==================================================================================================
 
+Eventually by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+
+Just a simple placeholder template for your kickass app/product/startup/whatever until it
+launches. Includes an email signup form and a cool slideshow background (more on both below).
+
+AJ
+aj@lkn.io | @ajlkn
+
+
+Slideshow Background:
+
+	This is pretty straightforward, but there are two JS settings you'll want to be aware of
+	(found under "Slideshow Background" in assets/js/main.js):
+
+	images
+
+		The list of images to cycle through, given in the following format:
+
+			'url': 'alignment'
+
+		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
+		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
+
+		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
+
+	delay
+
+		How long to wait between transitions (in ms). Note that this must be at least twice as long as
+		the transition speed itself (currently 3 seconds).
+
+
+Credits:
+
+	Icons:
+		Font Awesome (fontawesome.io)
+
+	Other:
+		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+
+==================================================================================================
+
 DESCRIPTION:
 
 TYPERITE is a clean and modern masonry blog template. It features a clean minimalist contemporary
@@ -9,8 +55,6 @@ pages for the following post formats: standard, video, audio, and gallery. In ad
 front page and post format pages, it also has page templates for contact, about, and archive.
 Typerite is fully responsive and retina ready so you also can rest assured that your site will
 look great and crisp on any devices and screen sizes.
-
-==================================================================================================
 
 
 LICENSE:
@@ -113,9 +157,6 @@ Fonts:
 Icons:
  - Iconmonstr (https://iconmonstr.com/)
 
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
-
 Javascript Files:
  - JQuery (http://jquery.com/)
  - Modernizr (http://modernizr.com/)
@@ -124,9 +165,10 @@ Javascript Files:
  - Slick slider (http://kenwheeler.github.io/slick/)
  - Code Prettify (https://github.com/google/code-prettify)
 
--------------------------------------------------------------------------------------------------------
-
+==================================================================================================
 
 GRAPHICS:
 
 - Made by Diana Carrillo Silva © ディアナ
+
+==================================================================================================
