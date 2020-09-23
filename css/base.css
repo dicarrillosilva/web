@@ -102,7 +102,7 @@ abbr[title] {
 /* Add the correct font weight in Chrome, Edge, and Safari. */
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 /* 1. Correct the inheritance and scaling of font size in all browsers.
@@ -312,7 +312,7 @@ html {
 }
 
 body {
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1;
   word-wrap: break-word;
   -moz-font-smoothing: grayscale;
@@ -355,7 +355,7 @@ i {
 
 strong,
 b {
-  font-weight: bold;
+  font-weight: 700;
   line-height: inherit;
 }
 
