@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-top: 6rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0rem;
 }
 
 @media screen and (max-width:600px) {
@@ -261,7 +261,7 @@ small {
 }
 
 blockquote {
-  margin: 4rem 0;
+  margin: 2rem 0;
   padding: 4rem 4rem;
   border-left: 4px solid black;
   position: relative;
@@ -298,6 +298,7 @@ blockquote p {
 }
 
 blockquote cite {
+  margin-top: 2rem;
   display: block;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -542,7 +543,8 @@ dl,
 form,
 .video-container,
 .ss-custom-select {
-  margin-bottom: 3.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0rem;
 }
 
 
@@ -1135,14 +1137,14 @@ input::-moz-focus-inner {
  * --------------------------------------------------------------------- */
 .pull-quote {
   position: relative;
-  padding: 2.4rem 0;
+  padding: 1rem 0;
 }
 
 .pull-quote blockquote {
   background-color: #efefef;
   border: none;
-  margin: 0;
-  padding-top: 9.6rem;
+  margin: none;
+  padding-top: 3rem;
   position: relative;
 }
 
@@ -1936,7 +1938,7 @@ input::-moz-focus-inner {
   color: #000000;
   padding: 8rem 0 0 0;
   margin-top: 0;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0;
 }
 
 .format-quote cite,
@@ -1976,7 +1978,7 @@ input::-moz-focus-inner {
 .format-link .link-wrap cite a:visited {
   color: rgba(0, 0, 0, 0.4);
   display: inline-block;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0rem;
 }
 
 .format-link .link-wrap cite a:hover,
