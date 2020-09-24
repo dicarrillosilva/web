@@ -543,7 +543,7 @@ dl,
 form,
 .video-container,
 .ss-custom-select {
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-bottom: 0rem;
 }
 
@@ -2975,7 +2975,7 @@ body.search-is-visible {
 
 .content__page img {
   margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0rem;
 }
 
 .content__page-header {
