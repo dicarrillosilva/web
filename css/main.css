@@ -1807,7 +1807,7 @@ input::-moz-focus-inner {
 }
 
 .masonry .entry__text {
-  padding: 3.2rem 2.8rem 4rem;
+  padding: 3.2rem 2.8rem 3.2rem;
   background-color: #ffffff;
 }
 
@@ -1844,7 +1844,7 @@ input::-moz-focus-inner {
   line-height: 2rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  margin-bottom: 3.2rem;
+  margin-bottom: 0rem;
 }
 
 .masonry .entry__meta span {
