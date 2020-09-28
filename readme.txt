@@ -67,7 +67,7 @@ Fonts:
  - Montserrat (https://fonts.google.com/specimen/Montserrat)
 
 
-Graphics, projects and blog publications:
+Images and publications:
 ----------------------------------------
 
 - By Diana Carrillo Silva © ディアナ
