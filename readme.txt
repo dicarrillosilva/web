@@ -1,52 +1,35 @@
 ==================================================================================================
 
+
+INDEX
+
 Eventually by HTML5 UP
 html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
 
 Just a simple placeholder template for your kickass app/product/startup/whatever until it
 launches. Includes an email signup form and a cool slideshow background (more on both below).
-
 AJ
 aj@lkn.io | @ajlkn
 
-
-Slideshow Background:
-
-	This is pretty straightforward, but there are two JS settings you'll want to be aware of
-	(found under "Slideshow Background" in assets/js/main.js):
-
-	images
-
-		The list of images to cycle through, given in the following format:
-
-			'url': 'alignment'
-
-		Where 'url' is the image (eg. 'images/foo.jpg', 'http://somewhere.else/foo.jpg'), and
-		'alignment' is how the image should be vertically aligned ('top', 'center', or 'bottom').
-
-		Note: Browsers that don't support CSS transitions (like IE<=9) will only see the first image.
-
-	delay
-
-		How long to wait between transitions (in ms). Note that this must be at least twice as long as
-		the transition speed itself (currently 3 seconds).
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
 Credits:
+--------
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Icons:
+- Font Awesome (fontawesome.io)
 
-	Other:
-		Responsive Tools (github.com/ajlkn/responsive-tools)
-
+Other:
+- Responsive Tools (github.com/ajlkn/responsive-tools)
 
 
 ==================================================================================================
 
-DESCRIPTION:
+
+PAGES OTHER THAN INDEX
+
+Typerite by Styleshout
 
 TYPERITE is a clean and modern masonry blog template. It features a clean minimalist contemporary
 design and puts emphasis on your content. It is versatile and flexible and can be used with
@@ -56,103 +39,12 @@ front page and post format pages, it also has page templates for contact, about,
 Typerite is fully responsive and retina ready so you also can rest assured that your site will
 look great and crisp on any devices and screen sizes.
 
-
-LICENSE:
-
-This free resource is provided by Styleshout.com and is free to use in
-both personal and commercial projects.
+This free resource is provided by Styleshout.com and is free to use in both personal and commercial
+projects.
 
 
-Rights:
--------
-
-You are permitted to use this free resource in any number of personal and commercial projects for
-yourself or a client. You may modify the resource according to your requirements and include them
-in your projects under the following condition - you MUST give appropriate credit, provide an
-attribution link to styleshout.com.
-
-
-Prohibitions:
--------------
-
-You are not permitted to resell or redistribute(even for free) the resource "as is" without
-prior consent. If you would like to republish or promote this resource on your site, please
-link back to the appropriate resource page on styleshout.com where users can find the download
-and not directly to the download zip file.
-
-
-Attribution:
-------------
-
-You must include a credit link to our website(https://www.styleshout.com) somewhere on your site.
-We prefer the footer credit that comes with the template but you are still free to move it
-somewhere else.
-
-
-
-If you have any questions about the License, feel free to contact us.
-
-
------------------------------------------------------------------------------------------------------
-
-
-REMOVING THE ATTRIBUTION LINK:
-
-We understand that there are situations where you want to use our templates without
-the crediting obligation. If that's your case, you can always send us a
-credit removal fee of 10 USD through Paypal. This will allow you to use a single
-template attribution/credit link free on ONE DOMAIN name.
-
-You can send your payments through Paypal to this address: ealigam@gmail.com or
-visit our attribution removal page: https://www.styleshout.com/attribution-free/
-and click the pay button on the page.
-
-If possible, kindly send us the site's url where the template is being used.
-Also, keep your Paypal receipt as proof of payment and your good to go.
-
-
-------------------------------------------------------------------------------------------------------
-
-
-SUPPORT:
-
-Since TYPERITE is distributed for free, support is not offered. TYPERITE is coded according
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template.
-However, If you're still new to HTML and CSS, I suggest that you visit the
-following tutorials:
-
- - https://webdesign.tutsplus.com/courses/30-days-to-learn-html-css
- - http://learn.shayhowe.com/html-css/
-
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-jQuery in your skill-set, you can also check out these tutorials:
-
- - https://code.tutsplus.com/courses/30-days-to-learn-jquery
- - http://try.jquery.com/
-
-
-------------------------------------------------------------------------------------------------------
-
-
-GET THE LATEST VERSION:
-
-We update our templates on a regular basis so to make sure that you have the latest version,
-always download the template files directly on our website(https://www.styleshout.com/)
-
-
-
--------------------------------------------------------------------------------------------------------
-
-
-SOURCES AND CREDITS:
-
-I've used the following resources as listed.
-
-Fonts:
- - Lora Font (https://fonts.google.com/specimen/Lora)
- - Heebo Font (https://fonts.google.com/specimen/Heebo)
- - IBM Plex Sans Font (https://fonts.google.com/specimen/IBM+Plex+Sans)
+Sources and credits:
+--------------------
 
 Icons:
  - Iconmonstr (https://iconmonstr.com/)
@@ -167,8 +59,18 @@ Javascript Files:
 
 ==================================================================================================
 
-GRAPHICS:
 
-- Made by Diana Carrillo Silva © ディアナ
+Fonts:
+------
+
+ - Oswald (https://fonts.google.com/specimen/Oswald)
+ - Montserrat (https://fonts.google.com/specimen/Montserrat)
+
+
+Graphics, projects and blog publications:
+----------------------------------------
+
+- By Diana Carrillo Silva © ディアナ
+
 
 ==================================================================================================
