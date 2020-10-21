@@ -25,6 +25,7 @@ if(!isset($_SESSION['hasVisited'])){
   fclose($f);
 }
 
+// Output
 echo "You are visitor number $counterVal to this site";
 
 ?>
