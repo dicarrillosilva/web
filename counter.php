@@ -26,7 +26,4 @@ fwrite($f, $counterVal);
 fclose($f);
 }
 
-// Output
-echo "You are visitor number $counterVal to this site";
-
 ?>
