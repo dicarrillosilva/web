@@ -31,16 +31,11 @@
 				</ul>
 
 				<?php
-				require_once('includes/db_connect.php'); // Database connection file
-				require_once('includes/functions.php');  // PHP functions file
 
-				$page_id = 1;
-				$visitor_ip = $_SERVER['REMOTE_ADDR']; // stores IP address of visitor in variable
+				require_once('counter.php'); // PHP functions file
 
-				add_view($conn, $visitor_ip, $page_id);
+				echo "<h6>Total Website Views:</h6>" . $counterVal;
 
-				$total_website_views = total_views($conn); // Returns total website views
-				echo "<h6>Total Website Views:</h6>" . $total_website_views;
 				?>
 
 			</footer>
