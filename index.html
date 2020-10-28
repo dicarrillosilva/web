@@ -34,7 +34,11 @@
 
 				require_once('counter.php'); // PHP functions file
 
-				echo "<h6>Total Website Views:</h6>" . $counterVal;
+				$website_views = fwrite($counterVal) // Returns total website views
+
+				echo "<h6>Website Views:</h6>" . $website_views;
+
+				<!-- <div class="visitor-count"> <?php include "counter.php"; ?> </div> -->
 
 				?>
 
