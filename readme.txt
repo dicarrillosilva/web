@@ -66,6 +66,7 @@ Fonts:
 
  - Oswald (https://fonts.google.com/specimen/Oswald)
  - Montserrat (https://fonts.google.com/specimen/Montserrat)
+ -AlejandroSans by Diana Carrillo Silva © ディアナ
 
 
 Logo, images and publications:
