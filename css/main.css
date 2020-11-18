@@ -170,8 +170,9 @@ h6, .h6 {
 }
 
 h1, .h1 {
-  font-size: 2rem;
-  line-height: 1.25em;
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  letter-spacing: 1rem;
 }
 
 @media screen and (max-width:600px) {
@@ -182,7 +183,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 1.9rem;
+  font-size: 2rem;
   line-height: 1.5em;
 }
 
@@ -197,7 +198,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   line-height: 1.5em;
   text-transform: uppercase;
   letter-spacing: 1rem;
@@ -217,8 +218,8 @@ p img {
 p.lead {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 2rem;
-  line-height: 1.833;
+  font-size: 1.6rem;
+  line-height: 2.3em;
   margin-bottom: 3.6rem;
   color: #000000;
 }
