@@ -1,0 +1,36 @@
+/* cascading: #id > .class > tag; more specific > less specific; later > earlier */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald:wght@500&display=swap');
+
+body { font-family: 'Montserrat', "Helvetica", sans-serif; } /* serif, sans-serif, monospace, cursive, and fantasy */
+
+h1 { font-size: xx-large;        /* xx-small, x-small, small, medium, large, x-large, xx-large or unit */
+    line-height: 3;              /* number (at least 1.5em font-size) */
+    text-align: left;            /* left, center, right, justify and justify-all */
+    text-decoration: underline;  /* underline, overline, line-through, and none; and combined */
+    font-weight: bolder;           /* normal, bold, bolder, light and lighter or 100-900; 400=normal and 700=bold */
+    font-style: italic;          /* normal and italic */
+    margin: 10px;                /* margin, margin-left, margin-right, margin-top and margin-bottom + unit */
+    color: pink;                 /* name, rgb(255, 255, 255), rgba(10, 200, 255, 0.5) for transparent and #3A2BFF */
+    }                            /* units: px, em, rem (most reliable), %, vh and vw */
+
+li { list-style-type: disc;                   /* ul= disc, circle, square, and none; ol= decimal, decimal-leading-zero, lower-roman, upper-roman, lower-alpha, upper-alpha */
+    list-style-position: inside;              /* inside and outside */
+                                              /* list-style-image: url("my_triangle.png"); */
+    }
+
+#p18 { color: blue; } /* id */
+
+.bird { color: blue; } /* class */
+
+blockquote.speech { font-color: green; } /* class and tag selector; this rule will not necessarily apply to every blockquote */
+
+.insect.flying { text-decoration: underline; font-weight:bold; } /* multiple classes */
+
+#intro blockquote a { font-weight: bold; } /* any <a> tags anywhere inside a <blockquote> anywhere inside the #intro section will now be bold */
+
+#intro > a { font-size: large; } /* direct descendant selectors */
+
+p * { text-decoration: underline; } /* the text of the paragraph will be normal, but any children anywhere inside it will be underlined */
+
+body > * { margin-left: 10px; } /* all the _direct_ children of the body receive the margin */
