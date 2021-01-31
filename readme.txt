@@ -1,31 +1,3 @@
-==================================================================================================
-
-
-INDEX
-
-Eventually by HTML5 UP
-html5up.net | @ajlkn
-
-Just a simple placeholder template for your kickass app/product/startup/whatever until it
-launches. Includes an email signup form and a cool slideshow background (more on both below).
-AJ
-aj@lkn.io | @ajlkn
-
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-Credits:
---------
-
-Icons:
-- Font Awesome (fontawesome.io)
-
-Other:
-- Responsive Tools (github.com/ajlkn/responsive-tools)
-
-
-==================================================================================================
-
 
 PAGES OTHER THAN INDEX
 
