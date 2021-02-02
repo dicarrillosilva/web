@@ -26,7 +26,6 @@ Javascript Files:
  - Modernizr (http://modernizr.com/)
  - Masonry JS (https://masonry.desandro.com/)
  - ImagesLoaded (https://imagesloaded.desandro.com/)
- - Slick slider (http://kenwheeler.github.io/slick/)
  - Code Prettify (https://github.com/google/code-prettify)
 
 
