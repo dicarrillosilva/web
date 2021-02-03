@@ -3,12 +3,12 @@
 
 @font-face {
   font-family: 'alejandro_sansregular';
-  src: url('alejandrosans-regular-webfont.eot');
-  src: url('alejandrosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('alejandrosans-regular-webfont.woff2') format('woff2'),
-         url('alejandrosans-regular-webfont.woff') format('woff'),
-         url('alejandrosans-regular-webfont.ttf') format('truetype'),
-         url('alejandrosans-regular-webfont.svg#alejandro_sansregular') format('svg');
+  src: url('../font/alejandrosans-regular-webfont.eot');
+  src: url('../font/alejandrosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/alejandrosans-regular-webfont.woff2') format('woff2'),
+         url('../font/alejandrosans-regular-webfont.woff') format('woff'),
+         url('../font/alejandrosans-regular-webfont.ttf') format('truetype'),
+         url('../font/alejandrosans-regular-webfont.svg#alejandro_sansregular') format('svg');
   font-weight: normal;
   font-style: normal;
   }
@@ -72,10 +72,11 @@ nav {
   padding-bottom: 7rem;
   padding-left: 1rem;
   padding-right: 21rem;
+  z-index: 3;
   }
 
   #index {
-    z-index: 2;
+    z-index: 6;
     position: fixed;
     align-self: center;
   }
@@ -88,8 +89,9 @@ nav {
     margin: -1rem;
     padding-top: 1rem;
     padding-bottom: 5rem;
-    padding-left: 19rem;
-    padding-right: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    z-index: 2;
     }
 
     #linkedin {
@@ -102,6 +104,7 @@ nav {
       padding-bottom: 3rem;
       padding-left: 6rem;
       padding-right: 1rem;
+      z-index: 4;
       }
 
       #pinterest {
@@ -114,6 +117,7 @@ nav {
         padding-bottom: 3rem;
         padding-left: 13rem;
         padding-right: 5rem;
+        z-index: 1;
         }
 
         #portfolio {
@@ -126,6 +130,7 @@ nav {
           padding-bottom: 15rem;
           padding-left: 12rem;
           padding-right: 1rem;
+          z-index: 5;
           }
 
 /* footer */
