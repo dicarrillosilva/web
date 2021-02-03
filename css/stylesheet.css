@@ -133,17 +133,6 @@ nav {
           z-index: 5;
           }
 
-          #crow {
-            background-image: url("../images/index/crow.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            margin: -1rem;
-            padding-top: 5rem;
-            padding-bottom: 3rem;
-            padding-left: 13rem;
-            padding-right: 5rem;
-          }
-
 /* footer */
 
 body {
