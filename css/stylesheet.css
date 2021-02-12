@@ -211,6 +211,18 @@ nav {
     padding-right: 7rem;
     }
 
+  #mgr {
+    background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin: 0.2rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    }
+
 /* footer */
 
 body {
