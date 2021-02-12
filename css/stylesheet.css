@@ -44,11 +44,12 @@ a:link {
   text-decoration: none;
   }
 
-a:hover  { color: #262624; }
+a:hover  {
+  color: #262624;
+  }
 
 a:visited {
-  color: #A61414;
-  text-decoration: line-through;  /* fix, cambiar typography? */
+  color: #A61414;  /* fix */
   }
 
 /* tags */
@@ -138,7 +139,46 @@ nav {
       z-index: 1;
       }
 
+    .dropdown {
+      display: inline-block; /* block, inline, inline-block, none and flex */
+      }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      min-width: 50px;
+      }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      }
+
+    .dropdown-content a:hover{
+      color: #262624;
+      }
+
+    .dropdown-content a {
+      padding: 5px;
+      background-color: rgba(255, 0, 0, 0.1);
+      display: block;
+      }
+
+  /* blog */
+
+  #mgr {
+    background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    margin: 0.2rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    padding-left: 13rem;
+    padding-right: 13rem;
+    }
+
   /* portfolio */
+
   #botkyrka {
     background-image: url("../images/pu-Botkyrka/botkyrka-1200.jpg");
     background-repeat: no-repeat;
@@ -209,18 +249,6 @@ nav {
     padding-bottom: 11rem;
     padding-left: 19rem;
     padding-right: 7rem;
-    }
-
-  #mgr {
-    background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    margin: 0.2rem;
-    padding-top: 10rem;
-    padding-bottom: 4rem;
-    padding-left: 13rem;
-    padding-right: 13rem;
     }
 
 /* footer */
