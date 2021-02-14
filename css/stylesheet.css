@@ -13,6 +13,8 @@
   font-style: normal;
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
 /* colors
 red: #A61414
 black: #262624 */
@@ -35,6 +37,11 @@ h1 {
   line-height: 3.5rem;
   text-align: center;
   color: #A61414;
+  }
+
+p {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 0.8rem;
   }
 
 /* links */
@@ -140,13 +147,13 @@ nav {
       }
 
     .dropdown {
-      display: inline-block; /* block, inline, inline-block, none and flex */
+      display: inline-block;
       }
 
     .dropdown-content {
       display: none;
       position: absolute;
-      min-width: 50px;
+      min-width: inherit;
       }
 
     .dropdown:hover .dropdown-content {
@@ -161,9 +168,29 @@ nav {
       padding: 5px;
       background-color: rgba(255, 0, 0, 0.1);
       display: block;
+      text-align: center;
       }
 
   /* blog */
+
+  .image {
+    display: flex;
+    }
+
+  .image-content {
+    display: none;
+    size: inherit;
+    }
+
+  .imager:hover .image-content {
+    opacity: 1;
+    visibility: visible;
+    }
+
+  .image-content p {
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.1);
+    }
 
   #mgr {
     background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
