@@ -152,7 +152,7 @@ nav {
 
     .dropdown-content {
       display: none;
-      position: absolute;
+      position: relative;
       min-width: inherit;
       }
 
