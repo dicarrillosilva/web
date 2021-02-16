@@ -51,12 +51,12 @@ a:link {
   text-decoration: none;
   }
 
-a:hover  {
-  color: #262624;
+a:visited {
+  color: #A61414;  /* must come after a:hover */
   }
 
-a:visited {
-  color: #A61414;  /* fix */
+a:hover, a h1:hover {
+  color: #262624;
   }
 
 /* tags */
