@@ -33,7 +33,7 @@ body {
 /* h1, h2, h3, h4, h5, h6 */
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 3.5rem;
   text-align: center;
   color: #A61414;
@@ -74,17 +74,20 @@ nav {
     min-height: calc(100vh - 70px);
     }
 
-    #blog {
-      background-image: url("../images/index/blog.jpg");
+    #blog, #instagram, #linkedin, #pinterest, #portfolio {
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center;
       margin: 0.2rem;
+      z-index: 1;
+      }
+
+    #blog {
+      background-image: url("../images/index/blog.jpg");
+      background-position: center;
       padding-top: 1rem;
       padding-bottom: 7rem;
       padding-left: 1rem;
       padding-right: 21rem;
-      z-index: 1;
       }
 
     #index {
@@ -96,54 +99,42 @@ nav {
 
     #instagram {
       background-image: url("../images/index/instagram.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
       background-position: right;
-      margin: 0.2rem;
       padding-top: 1rem;
       padding-bottom: 5rem;
       padding-left: 10rem;
       padding-right: 10rem;
-      z-index: 1;
       }
 
     #linkedin {
       background-image: url("../images/index/linkedin.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
       background-position: center;
-      margin: 0.2rem;
       padding-top: 9rem;
       padding-bottom: 3rem;
       padding-left: 6rem;
       padding-right: 1rem;
-      z-index: 1;
       }
 
     #pinterest {
       background-image: url("../images/index/pinterest.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
       background-position: center;
-      margin: 0.2rem;
       padding-top: 5rem;
       padding-bottom: 3rem;
       padding-left: 13rem;
       padding-right: 5rem;
-      z-index: 1;
       }
 
     #portfolio {
       background-image: url("../images/index/portfolio.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
       background-position: left;
-      margin: 0.2rem;
       padding-top: 1rem;
       padding-bottom: 15rem;
       padding-left: 12rem;
       padding-right: 1rem;
-      z-index: 1;
+      }
+
+    #blog:hover, #instagram:hover, #linkedin:hover, #pinterest:hover, #portfolio:hover {
+      background-image: url("../images/red-1200.png");
       }
 
     .dropdown {
@@ -172,32 +163,15 @@ nav {
       }
 
   /* blog */
-
-  .image {
-    display: flex;
-    }
-
-  .image-content {
-    display: none;
-    size: inherit;
-    }
-
-  .imager:hover .image-content {
-    opacity: 1;
-    visibility: visible;
-    }
-
-  .image-content p {
-    padding: 5px;
-    background-color: rgba(255, 0, 0, 0.1);
+  #mgr, #botkyrka, #chapultepec, #norsborg, #oxelosund, #tabacalera, #thesis {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0.2rem;
     }
 
   #mgr {
     background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: right;
-    margin: 0.2rem;
     padding-top: 10rem;
     padding-bottom: 4rem;
     padding-left: 13rem;
@@ -208,10 +182,7 @@ nav {
 
   #botkyrka {
     background-image: url("../images/pu-Botkyrka/botkyrka-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: left;
-    margin: 0.2rem;
     padding-top: 3rem;
     padding-bottom: 8rem;
     padding-left: 18rem;
@@ -220,10 +191,7 @@ nav {
 
   #chapultepec {
     background-image: url("../images/pa-Chapultepec/chapultepec-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
-    margin: 0.2rem;
     padding-top: 8rem;
     padding-bottom: 1rem;
     padding-left: 4rem;
@@ -232,10 +200,7 @@ nav {
 
   #norsborg {
     background-image: url("../images/pu-Norsborg/norsborg-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: right;
-    margin: 0.2rem;
     padding-top: 3rem;
     padding-bottom: 6rem;
     padding-left: 6rem;
@@ -244,10 +209,7 @@ nav {
 
   #oxelosund {
     background-image: url("../images/pu-Oxelosund/oxelosund-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: right;
-    margin: 0.2rem;
     padding-top: 10rem;
     padding-bottom: 1rem;
     padding-left: 19rem;
@@ -256,10 +218,7 @@ nav {
 
   #tabacalera {
     background-image: url("../images/pa-Tabacalera/tabacalera-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: left;
-    margin: 0.2rem;
     padding-top: 10rem;
     padding-bottom: 1rem;
     padding-left: 20rem;
@@ -268,14 +227,15 @@ nav {
 
   #thesis {
     background-image: url("../images/pu-thesis/pu-thesis-1200.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position: right;
-    margin: 0.2rem;
     padding-top: 3rem;
     padding-bottom: 11rem;
     padding-left: 19rem;
     padding-right: 7rem;
+    }
+
+  #mgr:hover, #botkyrka:hover, #chapultepec:hover, #norsborg:hover, #oxelosund:hover, #tabacalera:hover, #thesis:hover {
+    background-image: url("../images/red-1200.png");
     }
 
 /* footer */
