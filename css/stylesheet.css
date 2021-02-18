@@ -17,6 +17,7 @@
 
 /* colors
 red: #A61414
+white: #F2EEEB
 black: #262624 */
 
 /* general */
@@ -32,11 +33,14 @@ body {
 
 /* h1, h2, h3, h4, h5, h6 */
 
+h1, h2 {
+  color: #A61414;
+  }
+
 h1 {
   font-size: 2.4rem;
   line-height: 3.5rem;
   text-align: center;
-  color: #A61414;
   }
 
 p {
@@ -48,8 +52,11 @@ p {
 
 a:link {
   color: #A61414;
-  text-decoration: none;
   }
+
+  .mgr a:link { /* COMBAK: fix */
+    color: #F2EEEB;
+    }
 
 a:visited {
   color: #A61414;  /* must come after a:hover */
@@ -74,14 +81,14 @@ nav {
     min-height: calc(100vh - 70px);
     }
 
-    #blog, #instagram, #linkedin, #pinterest, #portfolio {
+    .blog, .instagram, .linkedin, .pinterest, .portfolio {
       background-repeat: no-repeat;
       background-size: cover;
       margin: 0.2rem;
       z-index: 1;
       }
 
-    #blog {
+    .blog {
       background-image: url("../images/index/blog.jpg");
       background-position: center;
       padding-top: 1rem;
@@ -97,7 +104,7 @@ nav {
       z-index: 2;
       }
 
-    #instagram {
+    .instagram {
       background-image: url("../images/index/instagram.jpg");
       background-position: right;
       padding-top: 1rem;
@@ -106,7 +113,7 @@ nav {
       padding-right: 10rem;
       }
 
-    #linkedin {
+    .linkedin {
       background-image: url("../images/index/linkedin.jpg");
       background-position: center;
       padding-top: 9rem;
@@ -115,7 +122,7 @@ nav {
       padding-right: 1rem;
       }
 
-    #pinterest {
+    .pinterest {
       background-image: url("../images/index/pinterest.jpg");
       background-position: center;
       padding-top: 5rem;
@@ -124,7 +131,7 @@ nav {
       padding-right: 5rem;
       }
 
-    #portfolio {
+    .portfolio {
       background-image: url("../images/index/portfolio.jpg");
       background-position: left;
       padding-top: 1rem;
@@ -133,7 +140,7 @@ nav {
       padding-right: 1rem;
       }
 
-    #blog:hover, #instagram:hover, #linkedin:hover, #pinterest:hover, #portfolio:hover {
+    .blog:hover, .instagram:hover, .linkedin:hover, .pinterest:hover, .portfolio:hover {
       background-image: url("../images/red-1200.png");
       }
 
@@ -163,13 +170,13 @@ nav {
       }
 
   /* blog */
-  #mgr, #botkyrka, #chapultepec, #norsborg, #oxelosund, #tabacalera, #thesis {
+  .mgr, .botkyrka, .chapultepec, .norsborg, .oxelosund, .tabacalera, .thesis {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0.2rem;
     }
 
-  #mgr {
+  .mgr {
     background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
     background-position: right;
     padding-top: 10rem;
@@ -178,9 +185,10 @@ nav {
     padding-right: 13rem;
     }
 
+
   /* portfolio */
 
-  #botkyrka {
+  .botkyrka {
     background-image: url("../images/pu-Botkyrka/botkyrka-1200.jpg");
     background-position: left;
     padding-top: 3rem;
@@ -189,7 +197,7 @@ nav {
     padding-right: 3rem;
     }
 
-  #chapultepec {
+  .chapultepec {
     background-image: url("../images/pa-Chapultepec/chapultepec-1200.jpg");
     background-position: center;
     padding-top: 8rem;
@@ -198,7 +206,7 @@ nav {
     padding-right: 4rem;
     }
 
-  #norsborg {
+  .norsborg {
     background-image: url("../images/pu-Norsborg/norsborg-1200.jpg");
     background-position: right;
     padding-top: 3rem;
@@ -207,7 +215,7 @@ nav {
     padding-right: 6rem;
     }
 
-  #oxelosund {
+  .oxelosund {
     background-image: url("../images/pu-Oxelosund/oxelosund-1200.jpg");
     background-position: right;
     padding-top: 10rem;
@@ -216,7 +224,7 @@ nav {
     padding-right: 2rem;
     }
 
-  #tabacalera {
+  .tabacalera {
     background-image: url("../images/pa-Tabacalera/tabacalera-1200.jpg");
     background-position: left;
     padding-top: 10rem;
@@ -225,7 +233,7 @@ nav {
     padding-right: 1rem;
     }
 
-  #thesis {
+  .thesis {
     background-image: url("../images/pu-thesis/pu-thesis-1200.jpg");
     background-position: right;
     padding-top: 3rem;
@@ -234,8 +242,21 @@ nav {
     padding-right: 7rem;
     }
 
-  #mgr:hover, #botkyrka:hover, #chapultepec:hover, #norsborg:hover, #oxelosund:hover, #tabacalera:hover, #thesis:hover {
+  .image-content {
+    display: none;
+    }
+
+  .mgr:hover {
     background-image: url("../images/red-1200.png");
+    padding: 1rem;
+    }
+
+  .mgr:hover .image-content {
+    display: inline;
+    }
+
+  .mgr:hover a {
+    color: #262624;
     }
 
 /* footer */
