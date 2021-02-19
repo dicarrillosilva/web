@@ -206,6 +206,10 @@ nav {
     padding-right: 4rem;
     }
 
+  .graus {
+    padding: 1rem;
+    }
+
   .norsborg {
     background-image: url("../images/pu-Norsborg/norsborg-1200.jpg");
     background-position: right;
@@ -246,16 +250,15 @@ nav {
     display: none;
     }
 
-  .mgr:hover {
+  .mgr:hover, .botkyrka:hover, .chapultepec:hover, .graus:hover, .norsborg:hover, .oxelosund:hover, .tabacalera:hover, .thesis:hover {
     background-image: url("../images/red-1200.png");
-    padding: 1rem;
     }
 
-  .mgr:hover .image-content {
+  .mgr:hover .image-content, .botkyrka:hover .image-content, .chapultepec:hover .image-content, .graus:hover .image-content, .norsborg:hover .image-content, .oxelosund:hover .image-content, .tabacalera:hover .image-content, .thesis:hover .image-content {
     display: inline;
     }
 
-  .mgr:hover a {
+  .mgr:hover a, .botkyrka:hover a, .chapultepec:hover a, .graus:hover a, .norsborg:hover a, .oxelosund:hover a, .tabacalera:hover a, .thesis:hover a {
     color: #262624;
     }
 
