@@ -36,6 +36,9 @@ body {
 h1, h2, h3, a {
   font-family: 'alejandro_sansregular';
   color: #A61414;
+  }
+
+h1, h2, h3, h4, a, p.center {
   text-align: center;
   }
 
@@ -44,7 +47,7 @@ h1 {
   line-height: 3.5rem;
   }
 
-p {
+p, figcaption {
   font-size: 0.8rem;
   }
 
@@ -66,6 +69,13 @@ a:hover, a h1:hover {
   color: #262624;
   }
 
+/* images */
+
+img {
+  max-width: 100%;
+  height: auto;
+  }
+
 /* tags */
 /* nav */
 
@@ -78,7 +88,7 @@ nav {
 
   /* index */
   .index {
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 275px);
     }
 
     .blog, .instagram, .linkedin, .pinterest, .portfolio {
@@ -228,7 +238,8 @@ nav {
 
 /* footer */
 
-body {
+footer {
+  height: 75px;
   background-image: url("../images/index/logo.png");
   background-repeat: no-repeat;
   background-position: calc(100vw - 60px) calc(100vh - 75px);
