@@ -23,17 +23,18 @@ black: #262624 */
 /* general */
 
 body {
-  font-family: 'Bodoni Moda', serif;      /* put a second font if first is not found (for katakana) */
+  font-family: 'Bodoni Moda', serif;      /* put a second font (for katakana) */
   font-size: 1.2rem;                      /* modify size in website caligraphy */
   color: #262624;
   cursor: crosshair;                      /* hacer mas grande o cambiar por imagen */
   margin: 10px;
   background-color: #F2EEEB;
+  font-size: 1rem;
   }
 
 /* h1, h2, h3, h4, h5, h6 */
 
-h1, h2, h3, a {
+h1, h2, h3, h5, h6, a {
   font-family: 'alejandro_sansregular';
   color: #A61414;
   }
@@ -47,9 +48,13 @@ h1 {
   line-height: 3.5rem;
   }
 
-p, figcaption {
-  font-size: 0.8rem;
+h3, h5, a {
+  font-size: 1.2rem;
   }
+
+h5 {
+  padding-top: 2rem;
+}
 
 /* links */
 
@@ -76,6 +81,14 @@ img {
   height: auto;
   }
 
+/* blockquote */
+
+blockquote {
+  text-align: center;
+  background: rgba(255, 0, 0, 0.1);
+  padding: 0.5rem;
+  }
+
 /* tags */
 /* nav */
 
@@ -88,7 +101,7 @@ nav {
 
   /* index */
   .index {
-    min-height: calc(100vh - 275px);
+    min-height: calc(100vh - 95px);
     }
 
     .blog, .instagram, .linkedin, .pinterest, .portfolio {
@@ -165,6 +178,10 @@ nav {
       }
 
   /* blog */
+  .gallery {
+    min-height: calc(100vh - 265px);
+    }
+
   .mgr, .botkyrka, .chapultepec, .norsborg, .oxelosund, .tabacalera, .thesis {
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +191,7 @@ nav {
   .mgr {
     background-image: url("../images/bu-MGR/JacarandasAlamedaCentral8M-1200.jpg");
     background-position: center;
-    padding: 7rem 1rem 7rem 1rem;
+    padding: 8rem 7rem 4rem 7rem;
     }
 
 
